@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 5px;
+}
+/* this is for the 'Feedup' */
+.navlinks h2{
+    margin-left: 40px;
+    margin-top: -5px;
+}
+.navlinks{
+    background-color: rgb(233, 227, 227);
+    position:relative;
+    height: 40px;
+    display: flex;
+    justify-content:space-between;
+    padding-top: 10px;
+    border-bottom: 2px solid gray;
+    border-radius: 10px;
+}
+.navlinks ul{
+    display: flex;
+    margin-left: 30px;
+}
+.navlinks ul li{
+    margin-left: 40px;
+    list-style: none;
+}
+.navlinks ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+/* this makes 'up' in 'Feedup' red  */
+.navlinks span{
+    color:red;
+}
+.navlinks form input{
+    width:200px;
+    height: 25px;
+    border-color: #ccc;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+button{
+    background-color:rgb(245, 6, 6);
+    width: 100px;
+    margin-right: 100px;
+    padding-top: -20px;
+    height: 25px;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 1px 2px 2px rgb(252, 57, 57);
+}
